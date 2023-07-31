@@ -58,7 +58,7 @@ export default function Project(props: ProjectProps) {
                 alt="Chevron"
               ></Image>
             </div>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 leading-relaxed">
               <p>{props.description}</p>
               <Image
                 alt="Open Github repo"
