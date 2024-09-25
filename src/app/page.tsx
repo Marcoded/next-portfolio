@@ -1,13 +1,12 @@
-import Image from "next/image";
-import Hero from "./components/Hero";
-import Introduction from "./components/Introduction";
-import MyStack from "./components/MyStack";
-import Project from "./components/Project";
 import Flamin from "..//..//public/flamminHotPreview.png";
 import Photogram from "..//..//public/photogramPreview.png";
-import GetInTouch from "./components/GetinTouch";
-import Footer from "./components/Footer";
 import QrPro from "..//..//public/qrProPreview.png";
+import Footer from "./components/Footer";
+import GetInTouch from "./components/GetinTouch";
+import Hero from "./components/Hero";
+import Introduction from "./components/Introduction";
+import Project from "./components/Project";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -16,11 +15,11 @@ export default function Home() {
         <section className="h-screen flex items-center justify-center">
           <Hero />
         </section>
-        <section className="h-[80vh] flex items-center justify-center">
+        <section className=" flex items-center justify-center">
           <Introduction />
         </section>
-        <section className="h-[70vh] flex items-center justify-center">
-          <MyStack />
+        <section className=" flex items-center mt-5 mb-5 justify-center">
+          <Skills />
         </section>
         <h1 className="font-bold text-transparent leading-relaxed  text-center mb-16 p-2 text-4xl md:text-6xl bg-clip-text bg-gradient-to-r from-accent to-primary ">
           Projects Highlights

@@ -7,7 +7,7 @@ import gitHubLogo from "..//..//..//public/github-mark-white.svg";
 
 import Chevron from "..//..//..//public/chevron.svg";
 import Arrow from "..//..//..//public/arrow.svg";
-import { createTechBadge, compileBadges } from "./MyStack";
+import { createTechBadge, compileBadges } from "./Skills";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -29,7 +29,7 @@ export default function Project(props: ProjectProps) {
     window.open(props.githubLink, "_blank");
   };
 
-  return (  
+  return (
     <motion.div
       initial={{ opacity: 0, filter: "blur(10px)" }}
       whileInView={{ opacity: 1, filter: "blur(0px)" }}

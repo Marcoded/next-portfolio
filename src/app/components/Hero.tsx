@@ -1,9 +1,9 @@
 "use client";
 
 //import { Typewriter, useTypewriter } from "react-simple-typewriter";
-import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
 import Chevron from "..//..//..//public/chevron.svg";
 
 const Hero = () => {
@@ -18,10 +18,8 @@ const Hero = () => {
       animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
       transition={{ duration: 1.2 }}
     >
-      <h1 className="ml-1 text-primary   sm:text-lg lg:text-2xl">
-        Hi, my name is
-      </h1>
-      <h1 className="text-3xl font-bold  text-neutral-content sm:text-5xl lg:text-8xl">
+      <h1 className="ml-1 text-primary  text-xl lg:text-2xl">Hi, my name is</h1>
+      <h1 className="text-5xl font-bold  text-neutral-content  lg:text-8xl">
         Marc Pollet
       </h1>
 
@@ -50,16 +48,15 @@ const Hero = () => {
               .typeString("<span class='text-accent'>things </span>")
 
               .typeString("for the web")
-              
+
               .start();
-              
           }}
         />
       </h1>
       <motion.div
         initial={{ opacity: 0, filter: "blur(15px)", y: -50 }}
         animate={{ opacity: 1, filter: "blur(0px)", y: 0 }}
-        transition={{ duration: 0.5, delay: 8 }}
+        transition={{ duration: 0.5, delay: 9 }}
       >
         <Image
           onClick={() => scrollDown(100)}
