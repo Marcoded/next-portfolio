@@ -1,15 +1,12 @@
 "use client";
-import React from "react";
 import Image, { StaticImageData } from "next/image";
-import GitHubLogo from "./GitHubLogo";
+import React from "react";
 
 import gitHubLogo from "..//..//..//public/github-mark-white.svg";
 
-import Chevron from "..//..//..//public/chevron.svg";
-import Arrow from "..//..//..//public/arrow.svg";
-import { createTechBadge, compileBadges } from "./Skills";
-import Link from "next/link";
 import { motion } from "framer-motion";
+import Arrow from "..//..//..//public/arrow.svg";
+import { compileBadges } from "./Skills";
 
 interface ProjectProps {
   hostedUrl: string;
@@ -78,7 +75,7 @@ export default function Project(props: ProjectProps) {
             alt="flammin hot project screenshot"
             height={400}
             width={400}
-            className="rounded-r-lg "
+            className="rounded-lg "
           ></Image>
         </div>
       </a>

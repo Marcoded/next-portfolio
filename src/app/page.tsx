@@ -17,7 +17,7 @@ export default function Home() {
         <section className="h-screen flex items-center justify-center">
           <Hero />
         </section>
-        <section className=" flex items-center justify-center">
+        <section className=" flex mb-16 items-center justify-center">
           <Introduction />
         </section>
         <section className=" flex items-center mt-5 mb-5 justify-center">
@@ -26,7 +26,7 @@ export default function Home() {
 
         <section className="mb-16">
           <h1 className="font-bold text-transparent leading-relaxed  text-center mb-8 p-2 text-4xl md:text-6xl bg-clip-text bg-gradient-to-r from-accent to-primary ">
-            Jobs
+           Relevant Experience 
           </h1>
           <Jobs
             techUsed={["React", "Node Js", "TypeScript", "E2E tests"]}

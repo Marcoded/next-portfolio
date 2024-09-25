@@ -50,12 +50,14 @@ export default function Jobs(props: ProjectProps) {
             <div className="flex flex-col gap-3 leading-relaxed">
               <p>{props.description}</p>
             </div>
+            <div className="italic mt-2 text-right">{props.dateRange}</div>
             <div className="grid grid-cols-4 gap-3 mt-5">
               {compileBadges(props.techUsed)}
             </div>
           </div>
           <Image
             src={props.companyLogo}
+            className="rounded-md"
             alt="company logo"
             height={400}
             width={400}
